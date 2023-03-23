@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background4">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="You're a Mage. But one day, your naughty orb is making the destruction in the castle.
+You're order to catch it to prevent further destruction"
+        android:gravity="center|left"
+        android:fontFamily="@font/kenney_pixel"
+        android:textSize="35sp"
+        android:padding="20dp"
+        android:textColor="@android:color/white"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rule:"
+        android:gravity="center"
+        android:fontFamily="@font/kenney_pixel"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:textColor="#FFA5D6"/>
+    <TextView
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:layout_width="370dp"
+        android:layout_height="230dp"
+        android:background="#CCBBBDBD"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:fontFamily="@font/kenney_pixel"
+        android:textColor="#FFFFE0"
+        android:textSize="35sp"
+        android:text="The blue orb hide among the purple orbs, after u click it,
+one point will be reward, the number of purple orb will increase after entering new stage,
+try to catch as many as u can!!!" />
+
+    <Button
+        android:id="@+id/backMenuButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#f7ffff"
+        android:fontFamily="@font/kenney_blocks"
+        android:text="back"
+        android:layout_margin="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:onClick="backMainMenu"/>
+
+</LinearLayout>
